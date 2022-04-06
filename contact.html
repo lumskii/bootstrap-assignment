@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+    <!------ Background overlay ------>
+    <img src="https://images.unsplash.com/photo-1618022325802-7e5e732d97a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60"
+        class="img-fluid" style="opacity:0.4;
+     width:100%; position:fixed;" alt="...">
+
+    <!------ Nav bar ------>
+    <div class="overlay fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark p-md-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png"
+                        alt="" width="30" height="24">
+                </a>
+                <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav"
+                    aria-expanded="false" aria-lable="Toggle Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mx-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link text-white">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link text-white">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!----Content ---->
+        <div class="content w-100 vh-100 d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <h1 class="contact-header justify-content-center text-center" style="padding: 40px 0; 
+                            font:300 60px 'Oswald', sans-serif;
+                            color: #fff; text-transform: uppercase; letter-spacing: 6px;">Contact</h1>
+                </div>
+        
+                <div class="container">
+                    <div class="row">
+                        <div class="col-7">
+                            <div class="form-floating mb-3">
+                                <input type="name" class="form-control" id="floatingInput" placeholder="John">
+                                <label for="floatingInput">Name</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingPassword">Email</label>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="3"></textarea>
+                            </div>
+        
+                            <div class="d-grid gap-2">
+                                <button class="btn btn-primary" type="button">Submit</button>
+                            </div>
+        
+                        </div>
+        
+                        <div class="col">
+                            <ul class="contact-list" style="list-style-type: none;margin-left: 30px;padding-right: 20px;">
+                                <li class="list-item" style="line-height: 4;color: #fff;">
+                                    <i class="fa fa-map-marker fa-2x">
+                                        <span class="contact-text place" style="font: 500 18px 'Lato', sans-serif;
+                                        letter-spacing: 1.9px;color: #bbb; margin-left: 40px;">City, State</span>
+                                    </i>
+                                </li>
+
+                                <li class="list-item" style="line-height: 4;color: #fff;">
+                                    <i class="fa fa-phone fa-2x">
+                                        <span class="contact-text place" style="font: 500 18px 'Lato', sans-serif;
+                                        letter-spacing: 1.9px;color: #bbb; margin-left: 32px;">(212) 555-2368</span>
+                                    </i>
+                                </li>
+
+                                <li class="list-item" style="line-height: 4;color: #fff;">
+                                    <i class="fa fa-envelope fa-2x">
+                                        <span class="contact-text place" style="font: 500 18px 'Lato', sans-serif;
+                                        letter-spacing: 1.9px;color: #bbb; margin-left: 25px;">hitmeup@gmail.com</span>
+                                    </i>
+                                </li>
+                            </ul>
+                            <div class="container"style="border-top:1px solid #aaa;border-bottom:1px solid #aaa;">
+                                <div class="row">
+                                    <div class="col-3 text-center" style="font-size: 42px;position: relative;display: inline-block;
+                                    background-color: rgb(27,27,27);height: 60px;width: 60px;
+                                    margin: 10px 18px;line-height: 60px;border-radius: 50%;">
+                                    <a href="#" style="color:#fff;"><i class="fa fa-github"></i></a>
+                                    </div>
+                                    <div class="col-3 text-center" style="font-size: 42px;position: relative;display: inline-block;
+                                    padding: 0;background-color: rgb(27,27,27);height: 60px;width: 60px;
+                                    margin: 10px 18px;line-height: 60px;border-radius: 50%;">
+                                        <a href="#" style="color:#fff;">
+                                            <i class="fa fa-codepen"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-3 text-center" style="font-size: 42px;position: relative;display: inline-block;
+                                    padding: 0;background-color: rgb(27,27,27);height: 60px;width: 60px;
+                                    margin: 10px 18px;line-height: 60px;border-radius: 50%;">
+                                        <a href="#" style="color:#fff;">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </div>
+                                    <div class="col-3 text-center" style="font-size: 42px;position: relative;display: inline-block;
+                                    padding: 0;background-color: rgb(27,27,27);height: 60px;width: 60px;
+                                    margin: 10px 18px;line-height: 60px;border-radius: 50%;">
+                                        <a href="#" style="color:#fff;">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+        </div>
+
+</body>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://use.fontawesome.com/20ab91acc4.js"></script>
+<script src="script.js"></script>
+
+</html>
